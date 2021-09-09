@@ -1,3 +1,23 @@
+
+
+.bg-light-grey{
+  background-color: #00000029;
+}
+
+.content{
+  margin-top: 40px;
+  padding: 12px;
+  height: 3000px;
+}
+
+.text1{
+
+  text-align: left;
+  font: normal normal 800 50px/80px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
 .App {
   text-align: center;
 }

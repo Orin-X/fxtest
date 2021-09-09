@@ -1,0 +1,15 @@
+// overwrite theme variables
+
+//quick test
+$primary: #FF7A04;
+$secondary: green;
+$dark: #300;
+$light: #fdd;
+$success: #0fa;
+$info: #555;
+$warning: yellow;
+$danger: red;
+
+
+// import bootstrap styles at the bottom!
+@import '~bootstrap/scss/bootstrap.scss'
