@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import { Button, Nav, Navbar, NavDropdown, Carousel } from 'react-bootstrap'
+import { Button, Nav, Navbar, NavDropdown,} from 'react-bootstrap'
 import './custom.scss';
 
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
 
       <div className="App">
-        <Navbar bg="light-grey" variant="light" sticky="top" expand="lg" collapseOnSelect>
+        <Navbar bg="light-grey" variant="light"  expand="lg" collapseOnSelect>
           <Navbar.Brand>
             <img src="triagle.png" alt="" width="41.1px" height="33px " />{' '}
             <img src="logo.png" alt="" width="124.45px" height="24.5px" />{' '}           
@@ -32,21 +32,28 @@ function App() {
             </Nav>
 
             </Navbar.Collapse>
+            <img src="img/eng.png" alt="" width="40px" height="30px " />{' '}
+            <div>
+            <NavDropdown>
             
+            </NavDropdown>
+            </div>
             
             <Button>Register</Button>
 
         </Navbar>
       <div>
           
-        <span STYLE="font-weight:bold" className="text1">Trade Forex & Stocks Online</span>
+        <span STYLE="font-weight:bold" className="text1">Trade Forex &<br/> Stocks Online</span>
         
-        <img src="img/dollar-apple-phone.png" className="FirstImage" alt="" width="450px" height="500px" />{' '}
+        <img src="img/dollar-apple-phone.png" className="image1" alt="" width="450px" height="500px" />{' '}
         <p><Button>Register</Button></p>
       </div>
 
       <div className="content">
-
+          <Navbar bg="light-grey" variant="light" width="450px" height="500px">
+            
+          </Navbar>
         
       </div>
 
